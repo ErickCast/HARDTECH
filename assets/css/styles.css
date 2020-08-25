@@ -1,0 +1,131 @@
+@font-face{
+	font-family: Oranienbaum;
+	src:url("assets/fonts/Oranienbaum-Regular.ttf");
+}
+
+*{
+	
+	font-family: 'Oranienbaum', sans-serif;
+}
+/*HEADER*/
+.header{
+	background: black;
+	min-height: 70px;
+	border-bottom: 3px solid blue;
+	
+}
+.header .dropdown-menu{
+
+}
+.header .logo{
+	margin-top: 5px;
+}
+.header a{
+	text-decoration: none;
+	color: white;
+
+}
+.header a:hover{
+	color: gray;
+}
+
+.lista ul li{
+	list-style: none;
+}
+.lista a{
+	text-decoration: none;
+	color: white;
+}
+.lista a:hover{
+	color: gray;
+	text-decoration: none;
+}
+
+
+/*Slider*/
+.slider{
+	margin:0 !important;
+}
+.slider img{
+	width: 1400px !important;
+	height: 450px !important;
+}
+
+/*MAIN*/
+.productos{
+	border-bottom: 1px solid gray;
+}
+.destacados{
+	background: black;
+}
+.destacados h3{
+	color: white;
+	text-align: center;
+}
+.laptops{
+	border-bottom: 3px solid red;
+	border-top: 3px solid red;
+}
+.accesorios{
+	border-bottom: 3px solid blue;
+	border-top: 3px solid blue;
+}
+.escritorio{
+	border-top: 3px solid orange;
+	border-bottom: 3px solid orange;
+}
+.procesadores{
+	border-bottom: 3px solid green;
+	border-top: 3px solid green;
+}
+.card .precio{
+	font-size: 18px;
+	color: green;
+}
+
+/*FOOTER*/
+
+
+.footer h3, .footer ul li{
+	color: white;
+	list-style: none;
+}
+.footer .social ul{
+	margin-top: 30px;
+}
+.footer .social{
+	border-bottom: 2px solid gray;
+}
+.footer .social a i{
+	font-size: 25px;
+	margin-right: 20px;
+	color: white;
+	transition: 150ms all;
+}
+
+.footer .social .fa-facebook-f:hover{
+	color: #3b5998;
+}
+.footer .social .fa-twitter:hover{
+	color: #00acee;
+}
+.footer .social .fa-youtube:hover{
+	color: #c4302b;
+}
+.footer .social .fa-instagram:hover{
+	color: #3f729b;
+}
+.footer .social .fa-google-plus-g:hover{
+	color: #db4a39;
+}
+
+/*VER*/
+.precio{
+	font-size: 19px;
+}
+
+
+/*LISTADO*/
+ul {
+	list-style: none;
+}
